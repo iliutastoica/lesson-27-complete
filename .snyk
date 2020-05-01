@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -1516,3 +1516,14 @@ patch:
         patched: '2019-09-07T18:07:14.527Z'
     - react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-regex > lodash:
         patched: '2019-09-07T18:07:14.527Z'
+  SNYK-JS-LODASH-567746:
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T07:39:09.294Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2020-05-01T07:39:09.294Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T07:39:09.294Z'
+    - styled-components > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T07:39:09.294Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-05-01T07:39:09.294Z'
